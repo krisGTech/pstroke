@@ -1,0 +1,147 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+
+
+
+html,
+body{
+background-color: white;
+    color: #555555;
+    font-family: 'lato', 'Arial' , sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+#readmit{
+     background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("readmit.jpg");
+    background-size: cover; /* make image a normal size fit to screen */
+    /*background-position: center;/* it centers the background image */
+    /*height: 100vh; /* 100% of the view portf*/
+    /*background-attachment: fixed;
+    width: 100%;    
+}
+
+.container{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 95%;
+    min-width: 420;
+    padding: 35px 50px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0,0,0,0.15)
+        
+}
+*/
+
+
+.navbar-inverse {
+  background-color: #0798f5;
+  border-color: #0798f5;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #0798f5;
+}
+
+
+
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: #0488FC;
+}
+p{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: #FC8004;
+  font-size: 18px;
+  font-weight: 400;
+}
+.text-center{
+text-align: center;
+}
+
+
+
+.button {
+border-radius: 4px;
+background-color: #008080;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 0px;
+width: 180px;
+height: 65px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
